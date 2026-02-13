@@ -1,4 +1,4 @@
-# Andra Perju | Technical Portfolio
+<img width="711" height="903" alt="image" src="https://github.com/user-attachments/assets/94a5a6db-4e69-4b64-a13e-acf20369c5ce" /># Andra Perju | Technical Portfolio
 ### Pipeline Architecture • Mechanical Design • Procedural Logic
 
 **Role:** Lead Technical Artist & Pipeline Developer
@@ -56,6 +56,8 @@ The UGP transformed the workflow from a manual artistic task into an automated e
 * **Ingestion Time Reduced: 154 Hours → 1.5 Hours.**
 * **Scalability:** Enabled the delivery of "One-Click" structural environments, allowing the team to focus purely on lighting and interaction logic.
 * **Reliability:** Eliminated human error in scale conversion (Imperial/Metric) and mesh watertightness.
+
+*View logic samples here:* [Heuristic_Optimization_Snippet.py](/Heuristic_Optimization_Snippet.py), [Spatial_Analysis_Snippet.py](/Spatial_Analysis_Snippet.py)
 
 ---
 

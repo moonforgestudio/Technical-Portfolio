@@ -9,8 +9,8 @@
 
 ## Table of Contents
 1.  [**Software:** Universal Geometry Pipeline (UGP)]( #1-software-universal-geometry-pipeline-ugp)
-2.  [**Hardware:** Scientific Fluid Transfer Mechanism]( #2-hardware-scientific-fluid-transfer-mechanism)
-3.  [**Logic:** Procedural Spline Architecture]( #3-logic-procedural-spline-architecture)
+2.  [**Logic:** Procedural Spline Architecture]( #3-logic-procedural-spline-architecture)
+3.  [**Hardware:** Scientific Fluid Transfer Mechanism]( #2-hardware-scientific-fluid-transfer-mechanism)
 
 ---
 
@@ -55,26 +55,7 @@ The UGP transformed the workflow from a manual artistic task into an automated e
 
 ---
 
-## 2. HARDWARE: Scientific Fluid Transfer Mechanism
-### Mechanical Design & Prototyping (DFM)
-
-**Role:** Scientific Modeling & Prototyping Engineer.
-**Core Competency:** Rapid Prototyping / DFM / Tolerance Analysis.
-
-#### 1. Parametric Modeling & Assembly Logic
-![DFM Design](assets/04_DFM_Design.jpg)
-Designed a multi-component rotary mechanism using **Autodesk Fusion 360**. The assembly required strict **tolerance analysis** to ensure the rotor bearings would apply consistent pressure to the tubing without causing occlusion or motor stall.
-* Utilized **interference checks** in CAD before printing to prevent assembly collisions.
-
-#### 2. Tolerance Testing & Material Validation
-Executed a rapid prototyping loop using FDM printing. The challenge was calibrating the **clearance tolerances (0.2mm - 0.5mm)** for the printed bearings to rotate freely on the shaft while maintaining structural rigidity.
-* Iterated on the housing design to account for **thermal shrinkage** inherent in the printing process.
-
-![DFM Print](assets/05_DFM_Print.jpg)
-
----
-
-## 3. LOGIC: Procedural Spline Architecture
+## 2. LOGIC: Procedural Spline Architecture
 ### Non-Destructive Geometry Nodes System
 
 **Tools:** Blender 4.2/4.5, Geometry Nodes, Cycles/Eevee, Substance Painter (textures).
@@ -94,5 +75,25 @@ The root system is not sculpted but calculated. Secondary geometry is generated 
 ![Composited Result](assets/10_Result2.jpg)
 
 ---
+
+## 3. HARDWARE: Scientific Fluid Transfer Mechanism
+### Mechanical Design & Prototyping (DFM)
+
+**Role:** Scientific Modeling & Prototyping Engineer.
+**Core Competency:** Rapid Prototyping / DFM / Tolerance Analysis.
+
+#### 1. Parametric Modeling & Assembly Logic
+![DFM Design](assets/04_DFM_Design.jpg)
+Designed a multi-component rotary mechanism using **Autodesk Fusion 360**. The assembly required strict **tolerance analysis** to ensure the rotor bearings would apply consistent pressure to the tubing without causing occlusion or motor stall.
+* Utilized **interference checks** in CAD before printing to prevent assembly collisions.
+
+#### 2. Tolerance Testing & Material Validation
+Executed a rapid prototyping loop using FDM printing. The challenge was calibrating the **clearance tolerances (0.2mm - 0.5mm)** for the printed bearings to rotate freely on the shaft while maintaining structural rigidity.
+* Iterated on the housing design to account for **thermal shrinkage** inherent in the printing process.
+
+![DFM Print](assets/05_DFM_Print.jpg)
+
+---
+
 
 **Authored by:** Andra Perju | [LinkedIn Profile](https://www.linkedin.com/in/andraperju)

@@ -1,4 +1,4 @@
-<img width="711" height="903" alt="image" src="https://github.com/user-attachments/assets/94a5a6db-4e69-4b64-a13e-acf20369c5ce" /># Andra Perju | Technical Portfolio
+# Andra Perju | Technical Portfolio
 ### Pipeline Architecture • Mechanical Design • Procedural Logic
 
 **Role:** Lead Technical Artist & Pipeline Developer

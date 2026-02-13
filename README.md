@@ -22,13 +22,16 @@
 
 #### The Problem: The "Monolith" Bottleneck
 ![UGP Wireframes](assets/01_UGP_Import.jpg)
+
 Raw architectural exports (DXF/CAD) contained **7,600+ objects** per scene, often with merged layers where structural elements were combined with high-poly props.
 * **Performance:** Importing a single facility froze the viewport for minutes.
 * **The Cost:** Manual cleanup required **154 hours** per facility to achieve a bake-ready state.
 
 #### The Solution: Algorithmic Geometry Filtering
 ![UGP Interface](assets/02_UGP_Panel.jpg)
+
 I developed the **Universal Geometry Pipeline (UGP)**, a custom Python-based addon for Blender, designed to transform manual labor into a supervised automated workflow.
+
 **Phase I: Heuristic Density Analysis (The “Geometric Sieve”)** The core innovation was removing the reliance on naming conventions. Instead, the tool analyzes the **DNA of the mesh** to categorize objects, reducing manual sorting to a **high-level verification task:**
 * **Density Indexing:** The script calculates the ratio of vertices to Bounding Box Volume to flag High Density objects (furniture) vs Low Density structures (walls).
 * **Assisted Sorting:** The tool auto-groups 80-90% of the scene based on geometry, flagging ambiguous items for rapid user decision rather than manual searching.
@@ -48,6 +51,7 @@ Once isolated, the structural data is passed through a procedural reconstruction
 
 #### The Result: 99% Efficiency Gain
 ![UGP Structure](assets/03_UGP_Result.jpg)
+
 The UGP transformed the workflow from a manual artistic task into an automated engineering process.
 * **Ingestion Time Reduced: 154 Hours → 1.5 Hours.**
 * **Scalability:** Enabled the delivery of "One-Click" structural environments, allowing the team to focus purely on lighting and interaction logic.
@@ -63,6 +67,7 @@ The UGP transformed the workflow from a manual artistic task into an automated e
 #### Spline-Driven Procedural Generation
 ![Spline Generation](assets/06_Proc_Curve.jpg)
 ![Spline Render](assets/07_Proc_Render.jpg)
+
 Complex organic geometry is extruded non-destructively along a single Bezier curve. Topology flow and twisting are dictated by the curve's tilt parameters, allowing for infinite iteration of the silhouette without remodeling.
 
 #### Radial Spline Architecture
@@ -84,6 +89,7 @@ The root system is not sculpted but calculated. Secondary geometry is generated 
 
 #### 1. Parametric Modeling & Assembly Logic
 ![DFM Design](assets/04_DFM_Design.jpg)
+
 Designed a multi-component rotary mechanism using **Autodesk Fusion 360**. The assembly required strict **tolerance analysis** to ensure the rotor bearings would apply consistent pressure to the tubing without causing occlusion or motor stall.
 * Utilized **interference checks** in CAD before printing to prevent assembly collisions.
 
